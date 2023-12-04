@@ -30,8 +30,9 @@ This project requires TestNG version 7.0.0 or older (compatible with Java 1.8).
 1. To install a compatible TestNG version in Eclipse:
 2. Click on 'Help' in the menu.
 3. Choose 'Install New Software'.
-4. Paste this link: https://testng.org/testng-eclipse-update-site/7.0.0
-5. click Add.. -> provide a name -> Finish
+4. Paste this link: http://testng.org/testng-eclipse-update-site/7.0.0
+5. https://testng.org/testng-eclipse-update-site/
+6. click Add.. -> provide a name -> Finish
 
 **Running the Tests**
 1. Open the project in Eclipse.
