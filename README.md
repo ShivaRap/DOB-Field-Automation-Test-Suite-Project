@@ -31,6 +31,6 @@ This project requires TestNG version 7.0.0 or older (compatible with Java 1.8).
 
 Running testng.xml triggers two main test classes:
 
-EmailValidationTest: Validates email formats.
- ContactFormTest: Triggered by EmailValidationTest, it tests form functionality, such as field validation and response message accuracy._
+1. EmailValidationTest: Validates email formats.
+2. ContactFormTest: Triggered by EmailValidationTest, it tests form functionality, such as field validation and response message accuracy.
 
