@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31528" started-at="2023-12-03T22:39:39Z" finished-at="2023-12-03T22:40:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31528" started-at="2023-12-03T22:39:39Z" finished-at="2023-12-03T22:40:10Z">
+      <class name="com.spring.testing.EmailValidationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.spring.testing.EmailValidationTest@d6da883]" name="setUp" is-config="true" duration-ms="1395" started-at="2023-12-03T22:39:39Z" finished-at="2023-12-03T22:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testContactForm()[pri:0, instance:com.spring.testing.EmailValidationTest@d6da883]" name="testContactForm" duration-ms="8435" started-at="2023-12-03T22:39:40Z" finished-at="2023-12-03T22:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method status="PASS" signature="testEmailValidation(java.lang.String, boolean)[pri:0, instance:com.spring.testing.EmailValidationTest@d6da883]" name="testEmailValidation" duration-ms="3184" started-at="2023-12-03T22:39:48Z" data-provider="emailTestData" finished-at="2023-12-03T22:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sai.teja@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailValidation -->
+        <test-method status="PASS" signature="testEmailValidation(java.lang.String, boolean)[pri:0, instance:com.spring.testing.EmailValidationTest@d6da883]" name="testEmailValidation" duration-ms="2571" started-at="2023-12-03T22:39:52Z" data-provider="emailTestData" finished-at="2023-12-03T22:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chistopher.nolan@domain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailValidation -->
+        <test-method status="PASS" signature="testEmailValidation(java.lang.String, boolean)[pri:0, instance:com.spring.testing.EmailValidationTest@d6da883]" name="testEmailValidation" duration-ms="2547" started-at="2023-12-03T22:39:54Z" data-provider="emailTestData" finished-at="2023-12-03T22:39:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailValidation -->
+        <test-method status="PASS" signature="testEmailValidation(java.lang.String, boolean)[pri:0, instance:com.spring.testing.EmailValidationTest@d6da883]" name="testEmailValidation" duration-ms="2523" started-at="2023-12-03T22:39:57Z" data-provider="emailTestData" finished-at="2023-12-03T22:39:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[plainaddress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailValidation -->
+        <test-method status="PASS" signature="testEmailValidation(java.lang.String, boolean)[pri:0, instance:com.spring.testing.EmailValidationTest@d6da883]" name="testEmailValidation" duration-ms="2532" started-at="2023-12-03T22:39:59Z" data-provider="emailTestData" finished-at="2023-12-03T22:40:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.priyanka@domain.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailValidation -->
+        <test-method status="PASS" signature="testEmailValidation(java.lang.String, boolean)[pri:0, instance:com.spring.testing.EmailValidationTest@d6da883]" name="testEmailValidation" duration-ms="2535" started-at="2023-12-03T22:40:02Z" data-provider="emailTestData" finished-at="2023-12-03T22:40:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shri@domain..com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailValidation -->
+        <test-method status="PASS" signature="testEmailValidation(java.lang.String, boolean)[pri:0, instance:com.spring.testing.EmailValidationTest@d6da883]" name="testEmailValidation" duration-ms="3145" started-at="2023-12-03T22:40:04Z" data-provider="emailTestData" finished-at="2023-12-03T22:40:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailValidation -->
+        <test-method status="PASS" signature="testEmailValidation(java.lang.String, boolean)[pri:0, instance:com.spring.testing.EmailValidationTest@d6da883]" name="testEmailValidation" duration-ms="2553" started-at="2023-12-03T22:40:08Z" data-provider="emailTestData" finished-at="2023-12-03T22:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.spring.testing.EmailValidationTest@d6da883]" name="tearDown" is-config="true" duration-ms="87" started-at="2023-12-03T22:40:10Z" finished-at="2023-12-03T22:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.spring.testing.EmailValidationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
