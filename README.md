@@ -9,11 +9,11 @@ Folder Structure
 3. src/test/java: Java test scripts implementing the automation logic.
 
 Technologies and Frameworks
-Java 1.8: The core programming language used for writing test scripts.
-Maven: Dependency management and project build tool.
-TestNG: Framework for organizing and executing tests in a systematic manner.
-Selenium WebDriver: Automates browser actions to simulate user interactions.
-Eclipse IDE: Integrated development environment used for developing and running tests.
+1. Java 1.8: The core programming language used for writing test scripts.
+2. Maven: Dependency management and project build tool.
+3. TestNG: Framework for organizing and executing tests in a systematic manner.
+4. Selenium WebDriver: Automates browser actions to simulate user interactions.
+5. Eclipse IDE: Integrated development environment used for developing and running tests.
 
 Dependencies
 All dependencies are managed in the pom.xml file. Simply clone the repository and let Maven handle the installations.
