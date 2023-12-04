@@ -1,12 +1,21 @@
 QA Analyst Automation Project
 
 **Overview**
-This project is an automation testing suite developed to validate the functionality of a web application's contact form. The focus is on verifying various aspects such as field presence, mandatory fields, age restrictions, and email validation based on specified test cases and automation of some scenarios. 
+This project is an automation testing suite developed to validate the functionality of the 'Date of Birth' field in a web application's contact form (http://webdriveruniversity.com/Contact-Us/contactus.html). The suite focuses on verifying field presence, mandatory nature, age restrictions, email validation, and overall form functionality.
 
 Folder Structure
 1. AssignmentDocs: Contains documents addressing the QA Analyst Assignment.
 2. drivers: Web drivers essential for Chrome and Firefox browsers.
 3. src/test/java: Java test scripts implementing the automation logic.
+
+Manual Test Cases
+The manual test cases are designed to validate the 'Date of Birth' field in the contact form. They cover various scenarios such as:
+1. Verifying the presence and correct placement of the Date of Birth field.
+2. Ensuring the field is mandatory and rejects submissions if left empty.
+3. Validating correct handling of boundary values, like minimum and maximum ages.
+4. Testing the field's response to different date formats, including invalid and future dates.
+5. Assessing the form's behavior on various devices and browsers to ensure consistent functionality.
+6. These tests ensure the robustness and reliability of the Date of Birth field in capturing and processing user input as per the business requirements.
 
 Technologies and Frameworks
 1. Java 1.8: The core programming language used for writing test scripts.
