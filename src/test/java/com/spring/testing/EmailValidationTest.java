@@ -31,22 +31,22 @@ public class EmailValidationTest extends ContactFormTest {
         WebElement commentsInput = driver.findElement(By.name("message"));
         WebElement submitButton = driver.findElement(By.cssSelector("input[type='submit']"));
 
-        // Fills in the form
+       
         firstNameInput.sendKeys("Test");
         lastNameInput.sendKeys("User");
         emailInput.sendKeys(email);
         commentsInput.sendKeys("Testing email validation.");
         submitButton.click();
 
-        // Wait for the response
+        
         Thread.sleep(2000);
 
-        // Check if the form was submitted successfully or if an error was displayed
+        
         boolean isSubmissionSuccessful = isElementPresent(By.cssSelector("div[id='contact_reply'] h1"));
         Assert.assertEquals(isSubmissionSuccessful, isValid, "Email validation test failed for: " + email);
     }
 
-    // method to check if an element is present
+    
     private boolean isElementPresent(By by) {
         try {
             driver.findElement(by);
