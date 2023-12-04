@@ -27,14 +27,14 @@ Technologies and Frameworks
 Dependencies
 All dependencies are managed in the pom.xml file. Simply clone the repository and let Maven handle the installations.
 This project requires TestNG version 7.0.0 or older (compatible with Java 1.8). 
-1. To install a compatible TestNG version in Eclipse: 
-2. Open this link in browser https://testng.org/testng-eclipse-update-site/
-3. Select version 7.0.0 or older by copying the appropriate URL
-4. Click on 'Help' in the menu.
-5. Choose 'Install New Software'.
-6. Paste the link
-7. click Add.. -> provide a name -> Finish
-8. Restart your Eclipse IDE
+To install a compatible TestNG version in Eclipse: 
+1. Open this link in browser https://testng.org/testng-eclipse-update-site/
+2. Select version 7.0.0 or older by copying the appropriate URL
+3. Click on 'Help' in the menu.
+4. Choose 'Install New Software'.
+5. Paste the link
+6. click Add.. -> provide a name -> Finish
+7. Restart your Eclipse IDE
 
 **Running the Tests**
 1. Open the project in Eclipse.
