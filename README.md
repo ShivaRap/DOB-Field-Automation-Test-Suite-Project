@@ -11,6 +11,7 @@ src/test/java: Java test scripts.
 **Technologies and Frameworks**
 
 Java 1.8: The programming language for test scripts.
+
 Maven: Manages project dependencies and builds.
 TestNG: The testing framework for organizing and running tests.
 Selenium WebDriver: Automates actions in web browsers.
@@ -32,8 +33,9 @@ click Add.. -> provide a name -> Finish
 Open the project in Eclipse.
 Find testng.xml in the project root.
 Right-click on testng.xml and choose 'Run As' -> 'TestNG Suite'.
+
 Running testng.xml triggers two main test classes:
 
-_EmailValidationTest: Validates email formats.
-ContactFormTest: Triggered by EmailValidationTest, it tests form functionality, such as field validation and response message accuracy._
+EmailValidationTest: Validates email formats.
+ ContactFormTest: Triggered by EmailValidationTest, it tests form functionality, such as field validation and response message accuracy._
 
