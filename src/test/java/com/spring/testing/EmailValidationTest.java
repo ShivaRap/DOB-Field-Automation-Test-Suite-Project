@@ -42,7 +42,7 @@ public class EmailValidationTest extends ContactFormTest {
         Thread.sleep(2000);
 
         
-        boolean isSubmissionSuccessful = isElementPresent(By.cssSelector("div[id='contact_reply'] h1"));
+        boolean isSubmissionSuccessful = isElementPresent(By.cssSelector("div[id='contact_reply']"));
         Assert.assertEquals(isSubmissionSuccessful, isValid, "Email validation test failed for: " + email);
     }
 
