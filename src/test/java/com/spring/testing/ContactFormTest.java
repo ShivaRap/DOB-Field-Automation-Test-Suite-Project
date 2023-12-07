@@ -67,7 +67,7 @@ public class ContactFormTest {
         WebElement submitButton = driver.findElement(By.cssSelector("input[type='submit']"));
         submitButton.click();
 
-        WebElement responseMessageElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[id='contact_reply'] h1")));
+        WebElement responseMessageElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[id='contact_reply']")));
         String responseMessage = responseMessageElement.getText();
         
 //        System.out.println(responseMessage);
