@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ContactFormTest">
+      <class name="com.spring.testing.EmailValidationTest">
         <methods>
-          <include name="testContactForm"/>
+          <include name="testEmailValidation" invocation-numbers="6"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- ContactFormTest -->
+      </class> <!-- com.spring.testing.EmailValidationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
