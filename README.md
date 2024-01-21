@@ -4,7 +4,7 @@ QA Analyst Automation Project
 This project is an automation testing suite developed to validate the functionality of the 'Date of Birth' field in a web application's contact form (http://webdriveruniversity.com/Contact-Us/contactus.html). The suite focuses on verifying field presence, mandatory nature, age restrictions, email validation, and overall form functionality.
 
 Folder Structure
-1. AssignmentDocs: Contains documents addressing the QA Analyst Assignment.
+1. Manual_testcases: contains a ManualTC.xlsx document for the DOB field
 2. drivers: Web drivers essential for Chrome and Firefox browsers.
 3. src/test/java: Java test scripts implementing the automation logic.
 
